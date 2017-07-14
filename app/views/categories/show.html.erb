@@ -18,5 +18,5 @@
 
 <p>
   <strong>Image:</strong>
-  <%= image_tag @category.avatar.url if @category.avatar.url %>
+  <%= image_tag @category.avatar.url if @category.avatar.file.present? %>
 </p>
