@@ -35,6 +35,14 @@ gem 'jbuilder', '~> 2.5'
 # https://github.com/decioferreira/bootstrap-generators
 gem 'bootstrap-generators', '~> 3.3.4'
 
+# ActionView Record Tag Helpers
+# https://github.com/rails/record_tag_helper
+gem 'record_tag_helper'
+
+# Classier solution for file uploads for Rails, Sinatra and other Ruby web frameworks
+# https://github.com/carrierwaveuploader/carrierwave
+gem 'carrierwave', '~> 1.0'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
@@ -53,4 +61,4 @@ group :development do
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
-gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+# gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
